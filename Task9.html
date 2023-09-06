@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <style>
+ .container {
+ display: flex;
+ border: 1px solid;
+ width: 50%;
+ position: relative;
+ height: 60vh;
+ }
+ .main {
+ flex-grow: 1;
+ padding: 20px;
+ position: relative;
+ }
+ .box1 {
+ background-color: #34ebb4;
+ top: 5%;
+ left: 5%;
+ width: 50px;
+ height: 50px;
+ margin: 0 5px 5px 5px;
+ }
+ .box2 {
+ background-color: royalblue;
+ top: 15%;
+ left: 5%;
+ width: 50px;
+ height: 50px;
+ margin: 0 5px 5px 5px;
+ }
+ .box3 {
+ background-color: red;
+ top: 25%;
+ left: 5%;
+ width: 50px;
+ height: 50px;
+ margin: 0 5px 5px 5px;
+ }
+ .box4 {
+ background-color: burlywood;
+ top: 35%;
+ left: 5%;
+ width: 50px;
+ height: 50px;
+ margin: 0 5px 5px 5px;
+ }
+ .side-nav {
+ padding: 10px;
+ position: absolute;
+ left: 20%;
+ }
+ h2 {
+ margin: 0;
+ }
+ .box1:hover {
+ background-color: #2a7c4cef;
+ }
+ .box2:hover {
+ background-color: #3afca8;
+ }
+ .box3:hover {
+ background-color: #2d2929;
+ }
+ .box4:hover {
+ background-color: #825419;
+ }
+ </style>
+</head>
+<body>
+ <div class="container">
+ <div class="main">
+ <div class="box1"></div>
+ <div class="box2"></div>
+ <div class="box3"></div>
+ <div class="box4"></div>
+ </div>
+ <div class="side-nav">
+ <h2>Hoverable Sidenav Buttons</h2>
+ <p>Hover over the buttons in the left side navigation to open 
+them</p>
+ </div>
+ </div>
+</body>
+</html>

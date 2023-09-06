@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <style>
+ .nav{
+ 
+ width:25% ;
+ height: 60%;
+ }
+ .nav-ver{
+ border: 2px solid black;
+ font-size: 25px;
+ background: skyblue;
+ margin: 10px;
+ 
+ }
+ .nav a{
+ text-decoration: none;
+ display: block;
+ padding-left: 15px;
+ margin: 10px;
+ }
+ .nav a:hover{
+ color: white;
+ background: yellow;
+ }
+ .nav1{
+ 
+ width: 25%;
+ }
+ .nav-hor{
+ background: gainsboro;
+ border: 1px solid black;
+ }
+ .nav1 a{
+ text-decoration: none;
+ margin: 5px;
+ 
+ }
+ .nav1 a:hover{
+ color: white;
+ background: rgba(0, 0, 0, 0.529);
+ }
+ .main{
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ }
+ table{
+ border-collapse: separate;
+ }
+ </style>
+</head>
+<body>
+ <div class="main">
+ <div class="nav">
+ <h2 style="text-align: center;">Vertical Navigation Bar</h2>
+ <div class="nav-ver">
+ <a href="#">Home</a>
+ <a href="#">Java</a>
+ <a href="#">CSS</a>
+ <a href="#">HTML</a>
+ <a href="#">Bootstrap</a>
+ </div>
+ </div>
+ <div class="nav1">
+ <h2 style="text-align: center;">Horizontal Navigation Bar</h2>
+ <div class="nav-hor">
+ <table border="1px">
+ <td><a href="#">Home</a></td>
+ <td><a href="#">Java</a></td>
+ <td><a href="#">CSS</a></td>
+ <td><a href="#">HTML</a></td>
+ <td><a href="#">Bootstrap</a></td>
+ </table>
+ 
+ </div>
+ </div>
+ </div>
+ 
+</body>
+</html>

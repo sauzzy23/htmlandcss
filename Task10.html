@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <style>
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ body {
+ height: 0;
+ width: 0;
+ font-family: 'Poppins', sans-serif;
+ }
+ .container {
+ width: 100vw;
+ height: 100vh;
+ 
+ background: yellow;
+ display: flex;
+ 
+ }
+ .nav {
+ display: flex;
+ flex-direction: column;
+ padding: 20px;
+ }
+ .nav a {
+ display: inline-block;
+ padding: 10px 20px;
+ background-color: white;
+ border-right: 10px solid black;
+ margin: 5px 0;
+ text-decoration: none;
+ color: #333;
+ border-radius: 5px;
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+ }
+ .nav a:hover {
+ background-color: #592c2c;
+ }
+ .main {
+ padding: 15px;
+ }
+ p {
+ padding: 10px;
+ }
+ #border {
+ border-bottom: 1px solid black;
+ margin-bottom: 15px;
+ }
+ i {
+ padding-top: 15px;
+ }
+ </style>
+</head>
+<body>
+ <div class="container">
+ <div class="nav">
+ <a href="#">Home page</a>
+ <a href="#">Musings</a>
+ <a href="#">My town</a>
+ <a href="#">Links</a>
+ </div>
+ <div class="main">
+ <h1>My first styled page</h1>
+ <p>Welcome to my styled page!</p>
+ <p>It lacks images, but at least it has style. And it has,even 
+if they don't go anywhere...</p>
+ <p>There should be more here, but I don't know what yet.</p>
+ <div id="border"></div>
+ <i>Made 5 April 2004</i><br>
+ <i>by myself</i>
+ </div>
+ </div>
+</body>
+</html>
